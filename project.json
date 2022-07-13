@@ -4,6 +4,9 @@
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.9.5]",
+    "UiPath.Form.Activities": "[1.9.6]",
+    "UiPath.FormActivityLibrary": "[1.9.6]",
+    "UiPath.Persistence.Activities": "[1.4.1]",
     "UiPath.System.Activities": "[20.10.3]",
     "UiPath.UIAutomation.Activities": "[20.10.8]"
   },
@@ -11,10 +14,11 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.10.3.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.1",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
     "excludedLoggedData": [
@@ -23,7 +27,8 @@
     ],
     "executionType": "Workflow",
     "readyForPiP": false,
-    "startsInPiP": false
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -49,5 +54,6 @@
   ],
   "isTemplate": false,
   "templateProjectData": {},
-  "publishData": {}
+  "publishData": {},
+  "targetFramework": "Legacy"
 }
